@@ -172,23 +172,21 @@ button:hover{
     }
 }
 
-
-@media(width < 1310){
-    body{
-        padding: 0 8%;
-    }    
-}
-
 @media(width < 870px){
     body{
         padding: 0 5%;
     }
 }
 
-@media (width < 630){
+@media (width < 630px){
     body{
         padding: 0 3%;
     }
+    
+    .container{
+        padding: 0;
+    }
+
 }
 
 @media(width < 520px){
@@ -196,10 +194,6 @@ button:hover{
         padding: 0;
         align-items: flex-start;
         justify-content: flex-start;
-    }
-
-    .container{
-        padding: 0;
     }
 
     .product-image{
